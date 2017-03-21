@@ -1,0 +1,21 @@
+	<!-- 头部导航栏 -->
+<div class="container">
+	<header>
+		<div class="header-world">
+			<div class="new-world left">
+				<img src="img/icons/task_1_7_1_03.png" alt="">
+				<span>新世界</span>
+			</div>
+			<div class="nav left">
+				<ul>
+					<li><a [routerLink]="['/home']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">首页</a></li>
+					<li><a [routerLink]="['/atest-activity']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">最新活动</a></li>
+					<li><a [routerLink]="['/project-introduction']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">项目介绍</a></li>
+					<li><a [routerLink]="['/love-community']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">爱心社区</a></li>
+					<li><a [routerLink]="['/about-us']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">关于我们</a></li>
+					<li id="login"><span></span><a [routerLink]="['/login']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">登录</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+</div>

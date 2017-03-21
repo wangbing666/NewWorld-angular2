@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="login">
+		<tr>
+			<td><label for="">请输入用户名：</label></td>
+			<td><input type="text" [(ngModel)]="user.name"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="username" style="color:red">{{user.username}}</td>
+		</tr>
+		<tr>
+			<td><label for="">请输入密码：</label></td>
+			<td><input type="password" [(ngModel)]="user.password"></td>
+		</tr>
+		<tr>
+			<td><button (click)="getLogin()">登录</button></td>
+			<td><button class="register"><a [routerLink]="['/register']">注册</a></button></td>
+		</tr>
+	</div>
+</div>

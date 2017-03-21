@@ -1,0 +1,43 @@
+.container{
+	margin: 0 auto;
+	width: 1280px;
+}
+.header-world{
+	height: 40px;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.new-world{
+	font-size: 30px;
+	font-weight: bold;
+	width: 540px;
+	margin-left: 100px;
+}
+.nav li{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color:#666;
+}
+a{
+	color:#666;
+	padding: 10px 10px 10px;
+}
+.nav a:hover{
+	color: #f90;
+	cursor: pointer;
+}
+.nav span{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background:url(../img/icons/task_1_7_1_06.png) no-repeat;
+}
+#login a{
+	color: red;
+}
+
+a.router-link-active {
+  color: red;
+  border-bottom: 3px solid red;
+}

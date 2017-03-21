@@ -1,0 +1,391 @@
+.container{
+	margin: 0 auto;
+	width: 1280px;
+}
+/*baner图*/
+.banner{
+	position: relative;
+}
+/*.banner img{
+	position: absolute;
+	z-index: 0;
+}*/
+.banner-text{
+	position: absolute;
+	z-index: 1;
+	color: #fff;
+	margin-top: -450px;
+	margin-left: 100px;
+	font-weight: bold;
+}
+.banner-text h2{
+	font-size: 50px;
+}
+.banner p{
+	padding:5px 0;
+}
+.banner a{
+	background: red;
+	display: block;
+	padding: 10px 50px;
+	color: #fff;
+	width: 120px;
+	margin-top: 40px;
+	font-size: 25px;
+	text-align: center;
+}
+
+/*内容主体*/
+.section-article li{
+	padding:10px 60px;
+	float: left;
+	width: 190px;
+	text-align: center;
+	border-right: 2px solid #ccc;
+}
+.bg span{
+	width: 312px;
+	height: 50px;
+	display: inline-block;
+	margin:50px auto;
+}
+.section-article p{
+	font-size: 12px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.section-article{
+	margin-bottom: 120px;
+}
+.bg1{
+	background: url(../img/icons/task_1_7_1_13.png) no-repeat center
+}
+.bg2{
+	background: url(../img/icons/task_1_7_1_18.png) no-repeat center
+}
+.bg3{
+	background: url(../img/icons/task_1_7_1_20.png) no-repeat center 
+}
+.bg4{
+	background: url(../img/icons/task_1_7_1_15.png) no-repeat center
+}
+.section-world{
+	background: #ccc;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom:30px;
+}
+.section-world>img{
+	display: block;
+	margin:70px auto 50px;
+}
+.section-world>h1{
+	font-size: 40px;
+	color: #aaa;
+	text-align: center;
+}
+.world-map{
+	text-align: center;
+	position: relative;
+	color: #fff;
+	font-weight: bold;
+}
+.world-city{
+	position: absolute;
+	width: 1280px;
+	height: 300px;
+	margin-left: -640px;
+	margin-top: 100px;
+	z-index: 1;
+	left: 50%;
+	top: 0%;
+}
+.activity{
+	font-size: 12px;
+}
+.world-city p{
+	padding: 5px 0;
+}
+.input li{
+	float: left;
+	width: 300px;
+	padding: 20px 0px;
+	position: relative;
+}
+
+.input input{
+	height: 38px;
+	margin-left: 10px;
+	display: inline-block;
+	border-right: 0;
+	border: 0;
+}
+.input u{
+	width: 40px;
+	height: 38px;
+	position: absolute;
+	right:7%;
+	top: 26%;
+	display: inline-block;
+	background: #fff;
+	
+}
+.input u span{
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	margin-top: 10px;
+	background: url(../img/icons/task_1_7_1_31.png) no-repeat center center
+}
+.input li>span{
+	width: 210px;
+	display: inline-block;
+	padding:10px 0;
+	background: red;
+	cursor: pointer;
+}
+/*活动*/
+.exercise{
+	width: 1280px;
+	height: 500px;
+	background: #eee;
+}
+.exercise-container{
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 1036px;
+	height: 500px;
+}
+.exercise-container>div{
+	width: auto;
+	margin:0 20px;
+	text-align: center;
+}
+.exercise-img{
+	background: #fff;
+	overflow: hidden;
+}
+.exercise-img img{
+	display: block;
+	margin: 8px;
+}
+.exercise p{
+	padding:5px;
+	font-size: 14px;
+}
+.exercise h5{
+	font-size: 20px;
+	padding: 10px;
+}
+/*新世界*/
+.time-img{
+	width: 850px;
+	height: 566px;
+	position: relative;
+}
+.xinshijie{
+	width: 430px;
+	height: 566px;
+}
+.time-text{
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top:50%;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	margin-left: -82px;
+	margin-top: -82px;
+}
+.time-text h1{
+	font-size: 100px;
+}
+.time-text h2{
+	font-size: 30px;
+}
+.xinshijie-text{
+	text-align: center;
+	margin:150px 100px;
+}
+.xinshijie-text h2{
+	font-size: 30px;
+	padding:10px 0;
+}
+.xinshijie-text span{
+	color: red;
+}
+.xinshijie-text p{
+	color: #555;
+	font-size: 14px;
+	line-height: 20px;
+}
+.xinshijie-text a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	border:2px solid red;
+	text-align: center;
+	line-height: 30px;
+	color: red;
+	margin: 63px;
+}
+/*新时代*/
+.clearfix>div{
+	width: 425px;
+	height: 521px;
+	text-align: center;
+	font-size: 18px;
+	
+}
+.new-age01{
+	background: #E7514D;
+	color: #fff;
+}
+.xinshidai{
+	margin-top: 180px;
+}
+.clearfix h2{
+	padding: 3px 0;
+}
+.new-age01 a{
+	padding: 10px 20px;
+	margin: 20px;
+	display: inline-block;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.new-age02{
+	color:#333;
+}
+.new-age02 a{
+	padding: 10px 20px;
+	margin: 20px;
+	display: inline-block;
+	border: 1px solid #E7514D;
+	color: #E7514D;
+	font-weight:bold;
+}
+/*志愿者*/
+.join-us{
+	text-align: center;
+	margin: 100px;
+}
+.join-us p{
+	width: 500px;
+	padding-left: 290px;
+}
+.volunteer p{
+	color: #666;
+	font-size: 12px;
+}
+.newage-volunteer{
+	width: 1000px;
+	margin-left:140px;
+	margin-bottom: 150px;
+}
+.Volunteer-Agreement{
+	width: 300px;
+}
+.Volunteer-Agreement h3{
+	padding-bottom: 20px;
+}
+.Volunteer-Agreement span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/icons/task_1_7_1_45.png) no-repeat center bottom
+}
+.Volunteer-Application{
+	margin-left: 50px;
+	width: 650px;
+}
+.com{
+	width: 290px;
+	background: #ccc;
+	padding: 0 10px;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+.com input{
+	width: 180px;
+	padding:10px;
+	background: #ccc;
+	border: 0;
+}
+textarea{
+	width: 640px;
+	background: #ccc;
+	border: 0;
+}
+.submit-applications{
+	text-align: center;
+	padding:10px 0;
+	margin-top: 15px;
+	width: 640px;
+	cursor: pointer;
+	background: #ccc;
+}
+/*页面脚部*/
+.connect{
+	width: 100%;
+	overflow: hidden;
+	background: #33363D;
+}
+.connect-us{
+	width: 600px;
+	margin: 100px auto;
+	color: #fff;
+	text-align: center;
+}
+.connect-us p{
+	font-size: 12px;
+	margin: 10px 0 20px;
+}
+.submit input{
+	width: 500px;
+	height: 40px;
+	border: 0;
+}
+.submit button{
+	border: 0;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	width: 100px;
+	font-weight: bold;
+	background: #8F8F8F;
+}
+.connect ul{
+	height: 30px;
+	margin: 0 auto;
+	margin-left: 160px;
+}
+.connect li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+}
+.qq{
+	background: url(../img/icons/task_1_7_1_49.png) no-repeat
+}
+.weibo{
+	background: url(../img/icons/task_1_7_1_51.png) no-repeat
+}
+.xiaoniao{
+	background: url(../img/icons/task_1_7_1_53.png) no-repeat
+}
+.diqiu{
+	background: url(../img/icons/task_1_7_1_55.png) no-repeat
+}
+.back-to-top{
+	overflow: hidden;
+	background: #2F3138;
+}
+.back-to-top div{
+	padding: 20px 40px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}

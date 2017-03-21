@@ -1,0 +1,38 @@
+.container{
+	margin: 0 auto;
+	width: 1280px;
+}
+.login{
+	width: 400px;
+	height: 300px;
+	background: #eee;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+.login-tr{
+	margin-top: 50px;
+}
+.login td{
+	padding: 20px;
+	margin-top: 20px;
+	color: #666;
+}
+.login input{
+	height: 30px;
+}
+.login button{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background: linear-gradient(left,red,orange,yellow);
+	font-size: 20px;
+	text-align: center;
+	border: 0;
+	cursor: pointer;
+}
+.register{
+	margin-left: 100px;
+}

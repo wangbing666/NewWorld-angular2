@@ -1,0 +1,22 @@
+.container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -212px;
+	margin-top: -150px;
+}
+.container td{
+	padding:10px;
+	font-size: 20px;
+}
+button{
+	width: 100%;
+	height: 30px;
+}
+input{
+	height: 30px;
+	width: 300px;
+}
+span{
+	color: red;
+}

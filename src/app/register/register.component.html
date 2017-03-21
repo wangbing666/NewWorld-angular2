@@ -1,0 +1,31 @@
+<div class="container">
+		<form #contactForm="ngForm" (ngSubmit)="submitForm()">
+			<tr>
+				<td>用户名：</td>
+				<td><input type="text" (blur)="onBlurUser()" [(ngModel)]="user.name" name="name" value="{{user.name}}"></td>
+				<td><span *ngIf="nameTip">请输入用户名</span></td>
+			</tr>
+			<tr>
+				<td>手机号：</td>
+				<td><input type="tel" (blur)="onBlurTel()" [(ngModel)]="user.telNum" name="telNum"
+          ></td>
+				<td><span *ngIf="phoneTip" >请输入正确的手机号码</span></td>
+			</tr>
+			<tr>
+				<td>邮箱：</td>
+				<td><input type="email" [(ngModel)]="user.Email" name="Email"></td>
+				<td><span *ngIf="emailTip" >请输入正确的邮箱</span></td>
+			</tr>
+			<tr>
+				<td>密码：</td>
+				<td><input type="password" [(ngModel)]="user.password" name="password"></td>
+				<td><span *ngIf="passwordTip">密码最少为六位</span></td>
+			</tr>
+			<tr>
+				<td>验证码：</td>
+				<td><input type="number" [(ngModel)]="user.Verification" name="Verification"></td>
+				<td><span *ngIf="VerificationTip">请输入4位验证码</span></td>
+			</tr>
+			<tr><td><button type="submit">注册</button></td><td></td></tr>
+		</form>
+</div>
